@@ -35,4 +35,5 @@ int search(const int a[], int n, int key){
 		free(x);
 		
 		return 0;
+		
 	} 
