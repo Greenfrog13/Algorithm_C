@@ -11,7 +11,7 @@ int main(void){
   
   while(1){
     int menu, x;
-    printf("현재 데이터 수 : %d \ %d \n", Size(&s), Capacity(&s));
+    printf("현재 데이터 수 : %d / %d \n", Size(&s), Capacity(&s));
     printf("(1)푸시 (2)팝 (3)피크 (4)출력 (0)종료 : ");
     scanf("%d", &menu);
     
