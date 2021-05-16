@@ -31,6 +31,7 @@ int main(void){
           printf("팝 데이터는 %d입니다.\n", x);
         break;
         
+        
       case 3: //피크 
         if(Peek(&s, &x) == -1)
           puts("\a오류 : 피크에 실패하였습니다.");
